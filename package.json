@@ -1,0 +1,74 @@
+{
+  "name": "react-native-template",
+  "version": "0.1.0",
+  "author": "Andre Vasconcelos",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/avasconcelos114/react-native-template.git"
+  },
+  "description": "Template for ReactNative + Redux projects",
+  "keywords": [
+    "ReactNative",
+    "Template"
+  ],
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "babel-jest": "^21.2.0",
+    "babel-preset-expo": "^4.0.0",
+    "chai": "^4.1.2",
+    "enzyme": "^3.0.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme-to-json": "^3.0.0",
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-react": "^7.5.1",
+    "eslint-plugin-react-native": "^3.2.1",
+    "jest": "^21.0.1",
+    "jest-enzyme": "^4.0.0",
+    "jest-expo": "^22.0.0",
+    "react-addons-test-utils": "^15.6.2",
+    "react-dom": "^16.0.0-beta.5",
+    "react-native-scripts": "1.10.0",
+    "react-test-renderer": "16.0.0-beta.5",
+    "sinon": "^4.2.1"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "jest --u"
+  },
+  "jest": {
+    "preset": "react-native",
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ],
+    "setupFiles": [
+      "./tests/setup.js"
+    ],
+    "testRegex": "./tests/.*.test.js$",
+    "rootDir": ".",
+    "transformIgnorePatterns": [
+      "node_modules/@exponent//ex-navigation"
+    ]
+  },
+  "dependencies": {
+    "@expo/ex-navigation": "^4.2.0",
+    "babel-preset-react-native": "^4.0.0",
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "expo": "^22.0.0",
+    "prop-types": "^15.6.0",
+    "react": "16.0.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-22.0.0.tar.gz",
+    "react-native-gesture-handler": "^1.0.0-alpha.27",
+    "react-redux": "^5.0.5",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "remote-redux-devtools": "^0.5.12"
+  }
+}
