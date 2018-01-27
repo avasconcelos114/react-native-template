@@ -1,3 +1,3 @@
-export const getCurrentUser = (state) => ({
-    user: state.currentUser,
-});
+export function selectCurrentUser(state) {
+    return state.userReducer.currentUser;
+}

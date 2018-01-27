@@ -3,11 +3,12 @@ import { bindActionCreators } from 'redux';
 import HomeScreen from './homeScreen';
 
 import { getCurrentUser } from '../../actions/userActions';
+import { selectCurrentUser } from '../../selectors/userSelector';
 
 function mapStateToProps(state, ownProps) {
     return {
         ...ownProps,
-        currentUser: state.userReducer.currentUser,
+        currentUser: selectCurrentUser(state),
     };
 }
 

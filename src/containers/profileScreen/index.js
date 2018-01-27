@@ -1,11 +1,12 @@
 import { connect } from 'react-redux';
 
 import Profile from './profileScreen';
+import { selectCurrentUser } from '../../selectors/userSelector';
 
 function mapStateToProps(state, ownProps) {
     return {
         ...ownProps,
-        currentUser: state.userReducer.currentUser,
+        currentUser: selectCurrentUser(state),
     };
 }
 
