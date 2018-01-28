@@ -8,6 +8,10 @@ import {
 import router from './router';
 import store from './src/store/configureStore';
 
+/*
+ * Starting point of the application,
+ * This is where we inject the store & router into the app!
+ */
 export default class App extends React.Component {
     render() {
         return (

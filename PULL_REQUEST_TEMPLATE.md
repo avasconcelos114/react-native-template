@@ -2,7 +2,7 @@
 [What does this PR do?]
 
 #### Ticket Link
-[**Put the issue's link here**, If there is none, create new issue before submitting pull request]
+[**Put the issue's link here**, If there is none, erase this section]
 
 #### Checklist
 [Place an '[x]' (no spaces) in each thing you did before submitting PR]

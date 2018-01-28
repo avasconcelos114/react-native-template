@@ -5,6 +5,9 @@ import HomeScreen from './homeScreen';
 import { getCurrentUser } from '../../actions/userActions';
 import { selectCurrentUser } from '../../selectors/userSelector';
 
+/*
+ * selects values from reducer and sends actions as props to component
+ */
 function mapStateToProps(state, ownProps) {
     return {
         ...ownProps,

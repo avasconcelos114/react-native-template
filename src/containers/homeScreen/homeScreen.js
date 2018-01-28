@@ -17,10 +17,6 @@ export default class HomeScreen extends React.Component {
         },
     }
 
-    componentDidMount() {
-        console.log(this.props.currentUser);       
-    }
-
     getCurrentUser = (name) => {
         const { actions } = this.props;
         actions.getCurrentUser(name);
@@ -31,7 +27,7 @@ export default class HomeScreen extends React.Component {
             <View>
                 <Text>This be the home screen matey!</Text>
                 <Button title='View Profile' onPress={() => this.props.navigator.push('profile')}/>
-                <Button title='get current user' onPress={() => this.getCurrentUser('Andre Vasconcelos')}/>
+                <Button title='get current user' onPress={() => this.getCurrentUser('Avasconcelos114')}/>
                 <Text>{this.props.currentUser}</Text>
             </View>
         );
