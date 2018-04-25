@@ -4,7 +4,9 @@ import { Text, View, Button } from 'react-native';
 
 export default class Profile extends React.Component {
     static propTypes = {
-        navigator: PropTypes.object,
+        navigation: PropTypes.shape({
+            navigate: PropTypes.func,
+        }),
         currentUser: PropTypes.string,
     }
 
@@ -18,7 +20,7 @@ export default class Profile extends React.Component {
         return (
             <View>
                 <Text>This be {this.props.currentUser}`s profile!</Text>
-                <Button title='View Home' onPress={() => this.props.navigator.push('home')}/>
+                <Button title='View Home' onPress={() => this.props.navigation.navigate('home')}/>
             </View>
         );
     }
