@@ -16,6 +16,8 @@
     "babel-eslint": "^8.2.1",
     "babel-jest": "^21.2.0",
     "babel-preset-expo": "^4.0.0",
+    "babel-preset-react-native": "^4.0.0",
+    "babel-preset-react-native-stage-0": "^1.0.1",
     "chai": "^4.1.2",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
@@ -59,16 +61,14 @@
   },
   "dependencies": {
     "react-navigation": "^1.5.2",
-    "babel-preset-react-native": "^4.0.0",
-    "babel-preset-react-native-stage-0": "^1.0.1",
-    "expo": "^26.0.0",
-    "prop-types": "^15.6.0",
+    "expo": "^28.0.0",
+    "prop-types": "^15.6.2",
     "react": "16.3.2",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-26.0.0.tar.gz",
-    "react-native-gesture-handler": "^1.0.0-alpha.27",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-28.0.0.tar.gz",
+    "react-native-gesture-handler": "^1.0.7",
     "react-redux": "^5.0.7",
     "redux": "^4.0.0",
-    "redux-thunk": "^2.2.0",
-    "remote-redux-devtools": "^0.5.12"
+    "redux-thunk": "^2.3.0",
+    "remote-redux-devtools": "^0.5.13"
   }
 }
