@@ -4,8 +4,8 @@ I prepared a project that has a readily baked ReactNative project to modify.
 
 #### PROJECT COMPONENTS
 The project runs with:
-* Expo SDK 26.0.0 (Easier testing, especially in non-native ios environments)
-* Expo's ReactNative SDK 26.0.0 (equivalent of ReactNative v0.54)
+* Expo SDK 28.0.0 (Easier testing, especially in non-native ios environments)
+* Expo's ReactNative SDK 28.0.0 (equivalent of ReactNative v0.55.4)
 * React Navigation 
 * Jest/Enzyme (Unit Testing)
 * Redux
