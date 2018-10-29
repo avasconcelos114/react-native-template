@@ -13,26 +13,27 @@
     "Template"
   ],
   "devDependencies": {
-    "babel-eslint": "^8.2.1",
+    "babel-eslint": "^10.0.1",
     "babel-jest": "^21.2.0",
     "babel-preset-expo": "^4.0.0",
-    "babel-preset-react-native": "^4.0.0",
+    "babel-preset-react-native": "^4.0.1",
     "babel-preset-react-native-stage-0": "^1.0.1",
-    "chai": "^4.1.2",
-    "enzyme": "^3.3.0",
-    "enzyme-adapter-react-16": "^1.1.1",
-    "enzyme-to-json": "^3.3.0",
+    "chai": "^4.2.0",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.6.0",
+    "enzyme-to-json": "^3.3.4",
     "eslint": "^4.16.0",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-react": "^7.5.1",
-    "eslint-plugin-react-native": "^3.2.1",
-    "jest": "^22.4.2",
-    "jest-enzyme": "^6.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-react-native": "^3.5.0",
+    "jest": "^22.4.4",
+    "jest-enzyme": "^6.1.2",
     "jest-expo": "^26.0.0",
     "react-addons-test-utils": "^15.6.2",
-    "react-dom": "^16.3.2",
+    "react-dom": "^16.6.0",
+    "react-native-mock": "^0.3.1",
     "react-native-scripts": "1.10.0",
     "react-test-renderer": "16.3.2",
     "sinon": "^4.5.0"
@@ -43,10 +44,10 @@
     "eject": "react-native-scripts eject",
     "android": "react-native-scripts android",
     "ios": "react-native-scripts ios",
-    "test": "jest --u"
+    "test": "node_modules/.bin/jest --u"
   },
   "jest": {
-    "preset": "react-native",
+    "preset": "jest-expo",
     "snapshotSerializers": [
       "enzyme-to-json/serializer"
     ],
@@ -60,14 +61,14 @@
     ]
   },
   "dependencies": {
-    "react-navigation": "^1.5.2",
-    "expo": "^28.0.0",
+    "expo": "^30.0.0",
     "prop-types": "^15.6.2",
-    "react": "16.3.2",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-28.0.0.tar.gz",
-    "react-native-gesture-handler": "^1.0.7",
-    "react-redux": "^5.0.7",
-    "redux": "^4.0.0",
+    "react": "16.6.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-30.0.0.tar.gz",
+    "react-native-gesture-handler": "^1.0.8",
+    "react-navigation": "^2.18.1",
+    "react-redux": "^5.1.0",
+    "redux": "^4.0.1",
     "redux-thunk": "^2.3.0",
     "remote-redux-devtools": "^0.5.13"
   }
