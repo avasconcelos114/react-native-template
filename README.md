@@ -4,8 +4,8 @@ I prepared a project that has a readily baked ReactNative project to modify.
 
 #### PROJECT COMPONENTS
 The project runs with:
-* Expo SDK 28.0.0 (Easier testing, especially in non-native ios environments)
-* Expo's ReactNative SDK 28.0.0 (equivalent of ReactNative v0.55.4)
+* Expo SDK 30.0.0 (Easier testing, especially in non-native ios environments)
+* Expo's ReactNative SDK 30.0.0 (equivalent of ReactNative v0.55.4)
 * React Navigation 
 * Jest/Enzyme (Unit Testing)
 * Redux
@@ -23,7 +23,7 @@ Be sure you have run the following dependencies before attempting to run this pr
 * Clone Repository
 * Run `npm install` to install dependencies
 * Run `npm test` to confirm that the `App` component renders with no issues (Not necessary but good to confirm)
-* Run `npm start` to run server
+* Run Expo in local machine
 * Use link or QR code to view project using the Expo app
 
 #### CONTRIBUTING
